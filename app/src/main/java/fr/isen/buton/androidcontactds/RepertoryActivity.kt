@@ -24,8 +24,7 @@ class RepertoryActivity : AppCompatActivity() {
         binding = ActivityRepertoryBinding.inflate(layoutInflater)
         val view = binding.root
 
-        setContentView(view)
-/*
+
         val recy = binding.contacts
 
         val myFunc = fun(contact: Results) {
@@ -35,6 +34,7 @@ class RepertoryActivity : AppCompatActivity() {
             startActivity(i)
 
         }
+        recy.layoutManager = LinearLayoutManager(this)
 
         recy.adapter = RepertoryAdapter(ResponseAPI(
                 arrayOf(
@@ -94,10 +94,14 @@ class RepertoryActivity : AppCompatActivity() {
                         ),
                         nat = "US"
                     ))), myFunc)
+
+
+        setContentView(view)
+    getRepertory()
     }
 
 
-/*
+
     private  fun getRepertory(){
         val queue = Volley.newRequestQueue(this)
 
@@ -120,7 +124,7 @@ class RepertoryActivity : AppCompatActivity() {
             }
         )
         queue.add(jsonObjectRequest)
-        */
+
 
     }
 
@@ -143,6 +147,6 @@ class RepertoryActivity : AppCompatActivity() {
         recyView.adapter = adapter
         recyView.layoutManager = LinearLayoutManager(this)
         Log.w("rep", "end")
-*/
+
     }
 }
