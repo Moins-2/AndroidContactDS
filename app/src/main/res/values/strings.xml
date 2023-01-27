@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidContactDS</string>
+    <string name="title">Affichage des contacts</string>
 </resources>
