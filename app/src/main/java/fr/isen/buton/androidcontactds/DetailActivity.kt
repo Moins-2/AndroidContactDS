@@ -47,8 +47,6 @@ class DetailActivity : AppCompatActivity() {
             Picasso.get().load(contact.picture.large).transform(transformation).into(binding.imageView)
         }
 
-
-
     }
 
     private fun getAdd(location: Location): String{
