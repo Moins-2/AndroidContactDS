@@ -39,8 +39,6 @@ class DetailActivity : AppCompatActivity() {
         binding.birth.text  = outputFormat.format(inputDateObj)
 
 
-
-
         if (contact.picture.large != "") {
             val radius = 30
             val transformation = RoundedCornersTransformation(radius, 0)
