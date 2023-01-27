@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">AndroidContactDS</string>
     <string name="title">Affichage des contacts</string>
+    <string name="location">location</string>
+    <string name="address">24 fakestreet</string>
+    <string name="email">faxe@eail.com</string>
+    <string name="phone">42 45 56 72 54</string>
+    <string name="birth">24/67/7257</string>
+
 </resources>
